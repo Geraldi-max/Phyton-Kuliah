@@ -1,0 +1,10 @@
+Pembilang=int(input("Pembilang : "))
+Penyebut =int(input("Penyebut  : "))
+
+if Penyebut==0:
+    if Pembilang==0:
+        print("tidak terdefinisi")
+    else:
+        print("tak berhingga")
+else:
+    print(Pembilang,"/", Penyebut,"=",Pembilang/Penyebut)
